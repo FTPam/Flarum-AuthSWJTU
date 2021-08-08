@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /home/vagrant/.config/composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../parser/bin/babel-parser.js' -> '/home/vagrant/code/Flarum/Flarum-JDIDVerify/js/node_modules/@babel/core/node_modules/.bin/parser'
+
+npm manifest: 
+  {
+    "name": "@tpam/flarum-jdidverify",
+    "version": "0.0.0",
+    "private": true,
+    "prettier": "@flarum/prettier-config",
+    "dependencies": {
+      "flarum-webpack-config": "^1.0.0",
+      "flarum-tsconfig": "^1.0.0",
+      "@flarum/prettier-config": "^1.0.0",
+      "webpack": "^4.26.0",
+      "webpack-cli": "^3.0.7"
+    },
+    "devDependencies": {
+      "prettier": "^2.3.0"
+    },
+    "scripts": {
+      "dev": "webpack --mode development --watch",
+      "build": "webpack --mode production",
+      "format": "prettier --write src",
+      "format-check": "prettier --check src"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
