@@ -1,6 +1,6 @@
 # 交大ID认证
 
-![License](https://img.shields.io/badge/license-GPL3.0-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/tpam/flarum-jdidverify.svg)](https://packagist.org/packages/tpam/flarum-jdidverify) [![Total Downloads](https://img.shields.io/packagist/dt/tpam/flarum-jdidverify.svg)](https://packagist.org/packages/tpam/flarum-jdidverify)
+![License](https://img.shields.io/badge/license-GPL3.0-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/tpam/flarum-jdidverify.svg)](https://packagist.org/packages/tpam/flarum-authswjtu) [![Total Downloads](https://img.shields.io/packagist/dt/tpam/flarum-jdidverify.svg)](https://packagist.org/packages/tpam/flarum-authswjtu)
 
 A [Flarum](http://flarum.org) extension.   
 用于进行自助交大身份认证。
